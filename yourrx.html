@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        .parent{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 10px;
+    }
+    .container{
+            width: 94%;
+            margin: auto;
+        }
+        .button{
+            background-color:aqua;border:none;padding: 10px; size: 100px;width: 100px;
+        width:100%;
+        font-size: 20px ;
+        }
+            .font24{
+                font-size: 20px;
+            }
+            .abhii{
+                width: 100%;box-sizing: border-box;padding: 07px;font-size: 25px;margin-bottom: 10px;
+            }
+            .aarav{
+                background-color: black;box-sizing: border-box; padding: 20px; color: aliceblue;
+            }
+           
+            img{
+                width: 100%;
+            }
+            .span1{
+                font-size: 25px;
+            }
+            .image1{
+                position: relative;
+            }
+            .image2{
+                position: absolute;
+                top: 0;
+                background-color: black;color: aliceblue;padding: 5px;
+            }
+            .span12{
+                background-color: rgb(37, 36, 36);color: white;padding: 10px;font-size: 40px;
+            }
+            .span123{
+                background-color: transparent;color: white;font-size: 37px;
+            }
+            .bannerimage{
+                position: relative;
+                
+            }
+            .bannerimagecontent{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+            }
+            @media only screen and (max-width: 425px) {
+  body {
+    background-color: rgb(231, 235, 236);
+  }
+  
+  .parent{
+    grid-template-columns: 1fr;
+  }
+  .span1{
+    font-size: 16px;
+  }
+  .image2{
+    padding:2px;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 425px) {
+  body {
+    background-color: rgb(250, 246, 246);
+  }
+  
+  .parent{
+    grid-template-columns: 1fr 1fr;
+  }
+  .span1{
+    font-size: 16px;
+  }
+  .image2{
+    padding:2px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  body {
+    background-color: rgb(244, 248, 245);
+  }
+  
+  .parent{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .span1{
+    font-size: 16px;
+  }
+  .image2{
+    padding:2px;
+  }
+} 
+.navparent{
+    box-shadow: 0.2px 4px rgb(0, 0,0,o.2);
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0px 5px 0px;
+    background-color: rgb(243, 239, 239);
+    position: fixed; 
+    top: 0;
+    z-index: 99;
+    left:0;
+    right: 0;
+    
+
+}ul{
+    list-style: none
+    ;display: flex;
+    margin: 0;
+    padding: 0px 20px 0px 20px;
+    font-family: "poppins",sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+li{
+    padding: 10px;
+}
+li:hover{
+background-color: rgb(155, 161, 160);
+
+}
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="navparent">
+            <div class="logo">
+                <ul>
+                    <li ><b >BR</b>  architect</li>
+                </ul>
+            </div>
+            <div class="right">
+                <ul><li>
+                    project
+                </li>
+            <li>about</li>
+        <li>contact</li>
+    </ul>
+            </div>
+        </div>
+    </nav>
+   
+    
+        <div class="bannerimage">
+            <img src="image/architect.jpg" alt="">
+            <div class="bannerimagecontent">
+                <span class="span12">BR</span>
+                <span class="span123">Architects
+                </span>
+            </div>
+        </div>
+        <div class="container">
+    <div><h1 style="font-size: 40px;"><u>project</u></h1></div>
+    <hr><div class="parent">
+    <div class="image1" data-aos="fade-up">
+    <img src="image/house5.jpg" alt="">
+    <div class="image2">
+        <span class="span1">Summer House</span>
+    </div>
+</div>
+<div class="image1" data-aos="fade-up">
+    <img src="image/house2 (1).jpg" alt="">
+    <div class="image2">
+        <span class="span1">Brick House</span>
+    </div>
+</div>
+<div class="image1" data-aos="fade-up">
+    <img src="image/house3.jpg" alt="">
+    <div class="image2">
+        <span class="span1">Renovated</span>
+    </div>
+</div>
+<div class="image1" data-aos="fade-up">
+    <img src="image/house4 (1).jpg" alt="">
+    <div class="image2">
+        <span class="span1">Barn House</span>
+    </div>
+</div></div>
+<div class="parent">
+<div class="image1" data-aos="fade-up">
+<img src="image/house2 (1).jpg" alt="">
+<div class="image2">
+    <span class="span1">summer house</span>
+</div>
+</div>
+<div class="image1" data-aos="fade-up">
+<img src="image/house5.jpg" alt="">
+<div class="image2">
+    <span class="span1"> brick house</span>
+</div>
+</div>
+<div class="image1" data-aos="fade-up">
+<img src="image/house4 (1).jpg" alt="">
+<div class="image2">
+    <span class="span1">Renovated</span>
+</div>
+</div>
+<div class="image1" data-aos="fade-up">
+<img src="image/house3.jpg" alt="">
+<div class="image2">
+    <span class="span1">Barn House</span>
+</div>
+</div></div>
+<div><h1><u>About</u></h1>
+<hr>
+<p class="font24">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+<div class="parent">
+<div data-aos="fade-up"><img src="image/team2.jpg" alt="">
+    <h2 style="font-size: 26px;font-style: normal;">John Deo</h2>
+    <p style="font-size: 20px;text-align: left;">Phasellus eget enim eu lectus faucibus vestibulum. 
+        Suspendisse sodales pellentesque elementum.</p>
+        <button class="button">contact </button></div>
+    <div data-aos="fade-up"><img src="image/team1.jpg" alt="">
+        <h2 style="font-size: 26px;font-style: normal;">John deo</h2> 
+        <p style="font-size: 20px;text-align: left;">Phasellus eget enim eu lectus faucibus vestibulum. 
+            Suspendisse sodales pellentesque elementum.</p> 
+            <button class="button">contact </button> 
+    </div>
+    <div data-aos="fade-up"><img src="image/teammmmmm.jpg" alt="">
+        <h2 style="font-size: 26px;font-style: normal;">Mike Ross</h2>
+        <p style="font-size: 20px;text-align: left;">Phasellus eget enim eu lectus faucibus vestibulum. 
+            Suspendisse sodales pellentesque elementum.</p>
+            <button class="button">contact </button>
+    </div>
+    <div data-aos="fade-up"><img src="image/team4.jpg" alt="">
+        <h2 style="font-size: 26px;font-style: normal;">Dan Star</h2>
+        <p style="font-size: 20px;text-align: left;">Phasellus eget enim eu lectus faucibus vestibulum. 
+            Suspendisse sodales pellentesque elementum.</p>
+            <button class="button">contact </button>
+    </div>
+</div>
+<h1 style="font-size: 40px;">
+    contact
+</h1>
+<hr>
+<p style="font-size: 25px;">
+    Lets get in touch and talk about your next project.
+</p>
+<input type="text" placeholder="name" class="abhii">
+<input type="email" placeholder="email" class="abhii">
+<input type="text" placeholder="subject" class="abhii">
+<input type="text" placeholder="comment" class="abhii">
+
+<button class="aarav">SEND MESSAGE</button><hr>
+<div data-aos="fade-up">
+    <img src="image/map.jpg" alt="" style="width: 100%;">
+</div>
+</div>
+</div>
+<footer style="background-color: black;color:white;padding:25px;text-align: center;" >
+    <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="">w3.css</a></p>
+</footer>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
