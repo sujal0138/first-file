@@ -1,0 +1,88 @@
+body{
+    padding: 0;
+    margin: 0;
+}.heading1{
+    text-align: center;
+    font-size: 34px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.p1{
+    font-size: 24px;
+}
+.translate{
+    height: 200px;
+    width: 300px;
+    background-color: rgb(80, 214, 219);
+    transition-property: all;
+    transition-duration: 2s;
+    border: 1px solid black;
+    text-align: center;
+}
+.translate:hover{
+  transform: translate(50px , 50px);
+  background-color: burlywood;
+  
+}
+.rotate{
+    height: 200px;
+    width: 300px;
+    background-color: rgb(232, 244, 5);
+    transition-property: all;
+    transition-duration: 2s;
+    border: 1px solid black;
+    text-align: center;
+    
+}
+.rotate:hover{
+    transform:rotate(360deg);
+    background-color:red;
+    
+  }
+  .skew{
+    width: 300px;
+  height: 150px;
+  background-color: yellow;
+  border: 1px solid black;
+  transition-property: all;
+  transition-duration: 1s;
+}
+.skew:hover{transform: skew(20deg,10deg);
+}
+
+.skewy{
+    width: 300px;
+  height: 150px;
+  background-color: yellow;
+  border: 1px solid black;
+  transition-property: all;
+  transition-duration: 1s;
+}
+.skewy:hover{
+  transform: skewY(10deg );
+}
+
+.skewx{
+  width: 300px;
+height: 150px;
+background-color: yellow;
+border: 1px solid black;
+transition-property: all;
+transition-duration: 1s;
+}
+.skewx:hover{
+transform: skewY(10deg );
+}
+
+.scale{
+  width: 300px;
+height: 150px;
+text-align: center;
+background-color: yellow;
+border: 1px solid black;
+transition-property: all;
+transition-duration: 1s;
+}
+.scale:hover{
+transform:scale(2,1)
+}
